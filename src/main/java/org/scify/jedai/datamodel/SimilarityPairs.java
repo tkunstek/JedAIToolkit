@@ -63,7 +63,7 @@ public class SimilarityPairs implements IConstants, Serializable {
         if (MAX_COMPARISONS < comparisons) {
             Log.error("Very high number of comparisons to be executed! "
                     + "Maximum allowed number is : " + MAX_COMPARISONS);
-            System.exit(-1);
+            //System.exit(-1);
         }
         return comparisons;
     }
